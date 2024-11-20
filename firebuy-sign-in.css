@@ -1,0 +1,148 @@
+body{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  /*background-image: url("subtle-cinematics-acZd3gWgfOw-unsplash.jpg");*/
+  background: linear-gradient(90deg, black, rgb(31, 75, 185), black);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  height: 30px;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header img{
+  width: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+}
+.right-header{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  align-items: center;
+  right: 30px;
+}
+.about:hover, 
+.product:hover,
+.support:hover, 
+.resources:hover,
+.store:hover,
+.login-signup:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  color: black;
+  border-color: grey;
+  font-size: larger;
+}
+.about:active, 
+.product:active,
+.support:active, 
+.resources:active,
+.store:active,
+.login-signup:active{
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+  top: 7px;
+}
+main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 120px;
+  left: 400px;
+  width: 450px;
+  height: 380px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  row-gap: 15px;
+}
+.sign-in{
+  font-weight: bold;
+  font-size: 35px;
+  color: orange;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center;
+  display: center;
+  top: -35px;
+}
+.email, .password, .username{
+  position: relative;
+  background-color: transparent;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  color: white;
+  top: -50px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.email::placeholder{
+  color: white;
+  font-weight: lighter;
+}
+.password::placeholder{
+  color: white;
+  font-weight: lighter;
+}
+.username::placeholder{
+  color: white;
+  font-weight: lighter;
+}
+.email:hover, .password:hover, .username:hover{
+  box-shadow: 1px 1px 7px white;
+}
+.sign-button{
+  font-size: 15px;
+  position: relative;
+  background-color: orange;
+  border-radius: 20px;
+  border-width: 0px;
+  width: 400px;
+  height: 40px;
+}
+.sign-button:hover{
+  background-color: rgba(255, 181, 42, 0.9);
+  box-shadow: 1px 1px 7px white;
+}
+.email:active, .password:active, .username:active, .sign-button:active{
+  box-shadow: 1px 1px 10px white;
+  border-width: 0px;
+}
+main p{
+  top: 0px;
+  left: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  left: 0px;
+  top: -20px;
+}
+main p a{
+  color: rgb(253, 179, 41);
+}

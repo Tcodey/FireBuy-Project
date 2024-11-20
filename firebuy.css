@@ -1,0 +1,224 @@
+body{
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header{
+  /*background-color: antiquewhite;*/
+  height: 30px;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-header {
+  width: 150px;
+}
+.firebuy-logo{
+  margin-left: 220px;
+  width: 100px;
+  position: relative;
+}
+.middle-header{
+  width: 575px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 250px;
+  transition: 0.15s;
+}
+.home:hover,
+.about:hover, 
+.product:hover, 
+.solution:hover, 
+.support:hover, 
+.resources:hover,
+.store:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  color: black;
+  border-color: grey;
+  font-size: larger;
+  font-weight: bold;
+}
+.home:active,
+.about:active, 
+.product:active, 
+.solution:active, 
+.support:active, 
+.resources:active,
+.store:active{
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(208, 66, 170);
+  top: 7px;
+}
+.right-header{
+  width: 300px;
+}
+.sign-in{
+  right: 0px;
+  position: absolute;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 5px 2px 5px;
+  top: 5px;
+  right: 100px;
+  transition: 0.15s;
+}
+.sign-in a{
+  color: black;
+}
+.sign-in:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  color: grey;
+  border-color: grey;
+}
+h1{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-size: 53px;
+  margin-bottom: 10px;
+}
+.team{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.team a:hover{
+  text-decoration: underline;
+}
+.offer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.cart{
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 370px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgb(220, 220, 220);
+  margin-top: 40px;
+}
+.fire-logo{
+  position: absolute;
+  width: 40px;
+  left: 10px;
+  top: 20px;
+}
+.package{
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  top: 30px;
+  left: 15px;
+}
+.subscription{
+  position: absolute;
+  font-size: 14px;
+  top: 65px;
+  left: 15px;
+  color: black;
+  font-weight: lighter;
+}
+.price{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  left: 15px;
+}
+.amount{
+  font-size: 30px;
+  font-weight: 900; 
+  margin-bottom: 0px;
+}
+.price span{
+  color: grey;
+  font-size: 15px;
+  font-weight: normal;
+}
+.range{
+  font-size: 15px;
+  margin-top: 0px;
+}
+.buy-button{
+  position: absolute;
+  width: 320px;
+  height: 35px;
+  background-color: rgb(208, 66, 170);
+  color: white;
+  border-width: 0px;
+  border-radius: 35px;
+  bottom: 140px;
+  left: 15px;
+}
+.buy-button:hover{
+  cursor: pointer;
+  background-color: rgb(212, 94, 181);
+}
+.buy-link{
+  color: white;
+}
+.summary{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 35px;
+  left: 15px;
+}
+.summary p{
+  font-weight: bold;
+}
+
+/*@media (min-width:20px) {
+  .offer{
+    flex-direction: column;
+  }
+}
+@media (max-width:1000px) {
+  .offer{
+    flex-direction: row;
+  } 
+}*/
+footer{
+  width: 100%;
+  height: 150px;
+  margin: 0px;
+  /*background-color: antiquewhite;*/
+  margin-top: 100px;
+  /*border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: grey;*/
+}
+footer p{
+  display: flex;
+  position: relative;
+  top: 75px;
+  justify-content: center;
+  align-items: center;
+  /*color: grey;*/
+  font-size: small;
+  
+}

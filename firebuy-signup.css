@@ -1,0 +1,90 @@
+body{
+  margin: 0px;
+  background: linear-gradient(90deg, black, rgb(31, 75, 185), black);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+}
+header img{
+  width: 150px;
+  display: flex;
+  position: absolute;
+  right: 200px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border-width: 1px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
+  width: 500px;
+  height: 400px;
+  left: 375px;
+  top: 75px;
+  row-gap: 20px;
+}
+main p{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+}
+main input{
+  display: flex;
+  position: relative;
+  width: 400px;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+main input::placeholder{
+  color: lightgrey;
+  font-weight: lighter;
+}
+.country-dropdown{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: -115px;
+  column-gap: 20px;
+}
+.country-dropdown label{
+  color: white;
+  font-size: 12px;
+  font-family:  verdana;
+}
+main button{
+  background-color: orange;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
+main button:hover{
+  background-color: rgb(253, 179, 41);
+}
+main a{
+  color: rgb(253, 179, 41);
+  font-size: 10px;
+}
+main a:hover{
+  color: darkblue;
+}
